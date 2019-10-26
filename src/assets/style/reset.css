@@ -1,0 +1,86 @@
+ul,li,ol,dl,dt,dd,body,p,h1,h2,h3,h4,h5,h6{
+	margin:0;padding:0;
+}
+html,body{height:100%;
+	font-family: "微软雅黑";
+	font-size:12px;
+}
+img,iframe{border:none;}
+a{text-decoration: none;color:#333;}
+ul,li,ol{list-style:none;}
+.red{color:#f96268;}
+.green{color:#36bc99}
+.blue{color:#2eb3e8}
+.yellow{color:#ffb359}
+html{
+    font-size:37.5px;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 1425751 */
+  src: url('//at.alicdn.com/t/font_1425751_qgn4c1by9gc.eot');
+  src: url('//at.alicdn.com/t/font_1425751_qgn4c1by9gc.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1425751_qgn4c1by9gc.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1425751_qgn4c1by9gc.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1425751_qgn4c1by9gc.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1425751_qgn4c1by9gc.svg#iconfont') format('svg');
+}
+
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-shopcart:before {
+    content: "\e60b";
+  }
+  
+  .icon-kefu:before {
+    content: "\e671";
+  }
+  
+  .icon-i-home:before {
+    content: "\e60a";
+  }
+  
+  .icon-previewleft:before {
+    content: "\e75b";
+  }
+  
+  .icon-previewright:before {
+    content: "\e75c";
+  }
+  
+  .icon-ai-cart:before {
+    content: "\e63a";
+  }
+  
+  .icon-yanjing:before {
+    content: "\e681";
+  }
+  
+  .icon-dianhua:before {
+    content: "\e611";
+  }
+  
+  .icon-tel:before {
+    content: "\e641";
+  }
+  
+  .icon-ditu:before {
+    content: "\e60c";
+  }
+  
+  .icon-aixin:before {
+    content: "\e605";
+  }
+  
+  .icon-ellipsis:before {
+    content: "\e608";
+  }
+  
+  .icon-share:before {
+    content: "\e780";
+  }

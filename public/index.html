@@ -5,13 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1425751_x2sel7oo05q.css">
     <title>jucheng</title>
   </head>
   <body>
+    <head>
+
+
     <noscript>
       <strong>We're sorry but jucheng doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
+    
     <!-- built files will be auto injected -->
   </body>
+  <script>
+
+
+
+
+(function (win, doc) {
+    if (!win.addEventListener) return;
+    var html = document.documentElement;
+
+    function setFont() {
+        var cliWidth = html.clientWidth;
+        if(cliWidth >540){
+            cliWidth  = 540;
+        }
+        html.style.fontSize = cliWidth / 10 +0.02+ 'px';
+    }
+
+    win.addEventListener('resize', setFont, false)
+    doc.addEventListener('DOMContentLoaded', setFont, false);
+
+
+})(window, document);
+  </script>
 </html>
