@@ -1,6 +1,7 @@
 <template>
     <div class="banner-wrap">
         <div class="swiper-container">
+            <div>第一次提交</div>
             <div class="swiper-wrapper">
                 <div class="swiper-slide" v-for="item in $store.state.home.slide_list">
                     <a href="banner-wrap__block">
