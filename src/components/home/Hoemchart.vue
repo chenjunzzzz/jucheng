@@ -1,6 +1,6 @@
 <template>
     <div class="banner-wrap">
-        <div>345</div>
+        <div>34512313</div>
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide" v-for="item in $store.state.home.slide_list">
