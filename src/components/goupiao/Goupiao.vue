@@ -1,5 +1,6 @@
 <template>
     <div>
+        <div>123</div>
         <!--布局未-->
         <el-drawer direction="btt" :visible.sync="drawer" size="50%"  title="选择日期" >
               <el-radio-group v-model="radio1" class="rqi" >
